@@ -1,0 +1,34 @@
+.pinglun{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.headerP{
+	width: 100%;
+	height: 1.6rem;
+	border-bottom: 1px solid #ccc;
+    line-height: 1.6rem;
+	text-align: center;
+}
+.headerP span{
+	position: absolute;
+	left: 0;
+}
+.sectionP{
+	flex: 1;
+	overflow: scroll;
+}
+.sectionP ul li{
+	background: #F8F8F8;
+	padding: 0.4rem;
+	box-sizing: border-box;
+	margin: 0.2rem 0;
+}
+.footerP{
+	width: 100%;
+	height: 1.6rem;
+	border-top: 1px solid #ccc;
+    line-height: 1.6rem;
+	text-align: center;
+}
